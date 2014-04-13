@@ -6,10 +6,22 @@
   color: blue;
 }
 
-.left-nav {
-  @include span-columns(3);
+.left-split {
+  @include span-columns(6);
 }
 
-.main-content {
+.right-split {
+  @include span-columns(6);
+}
+
+body {
+  background-color: #CCCcCC;
+}
+
+.left-large {
   @include span-columns(9);
+}
+
+.right-small {
+  @include span-columns(3);
 }
